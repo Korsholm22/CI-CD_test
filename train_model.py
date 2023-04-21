@@ -18,3 +18,4 @@ def train_model():
 if __name__ == "__main__":
     model = train_model()
     joblib.dump(model, "model.pkl")
+#test
